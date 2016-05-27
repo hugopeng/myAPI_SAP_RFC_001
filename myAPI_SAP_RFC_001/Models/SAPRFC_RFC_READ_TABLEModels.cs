@@ -41,7 +41,7 @@ namespace myAPI_SAP_RFC_001.Models
                     SAPFunctionsOCX.IFunction ifunc = (SAPFunctionsOCX.IFunction)func.Add("RFC_READ_TABLE");
 
                     SAPFunctionsOCX.IParameter iQUERY_TABLE = (SAPFunctionsOCX.IParameter)ifunc.get_Exports("QUERY_TABLE");
-                    iQUERY_TABLE.Value = "USR41";
+                    iQUERY_TABLE.Value = iQueryTable;
                     SAPFunctionsOCX.IParameter iDELIMITER = (SAPFunctionsOCX.IParameter)ifunc.get_Exports("DELIMITER");
                     iDELIMITER.Value = "|";
 
@@ -51,8 +51,8 @@ namespace myAPI_SAP_RFC_001.Models
                     tOPTIONS.AppendGridData(1, 1, 1, "");
 
                     SAPTableFactoryCtrl.Table tFIELDS = (SAPTableFactoryCtrl.Table)tables.get_Item("FIELDS");
-                    tFIELDS.AppendGridData(1, 1, 1, "BNAME");
-                    tFIELDS.AppendGridData(1, 2, 1, "TERMINAL");
+                    //tFIELDS.AppendGridData(1, 1, 1, "BNAME");
+                    //tFIELDS.AppendGridData(1, 2, 1, "TERMINAL");
 
                     ifunc.Call();
 

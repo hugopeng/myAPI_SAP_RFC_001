@@ -234,7 +234,6 @@ D:\Git\myAPI_SAP_RFC_001\myAPI_SAP_RFC_001\bin\Interop.SAPBAPIControlLib.dll
 D:\Git\myAPI_SAP_RFC_001\myAPI_SAP_RFC_001\bin\Interop.SAPFunctionsOCX.dll
 D:\Git\myAPI_SAP_RFC_001\myAPI_SAP_RFC_001\bin\Interop.SAPLogonCtrl.dll
 D:\Git\myAPI_SAP_RFC_001\myAPI_SAP_RFC_001\bin\Interop.SAPTableFactoryCtrl.dll
-D:\Git\myAPI_SAP_RFC_001\myAPI_SAP_RFC_001\obj\Debug\myAPI_SAP_RFC_001.csprojResolveAssemblyReference.cache
 D:\Git\myAPI_SAP_RFC_001\myAPI_SAP_RFC_001\obj\Debug\Interop.SAPBAPIControlLib.dll
 D:\Git\myAPI_SAP_RFC_001\myAPI_SAP_RFC_001\obj\Debug\Interop.SAPFunctionsOCX.dll
 D:\Git\myAPI_SAP_RFC_001\myAPI_SAP_RFC_001\obj\Debug\Interop.SAPLogonCtrl.dll

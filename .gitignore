@@ -6,7 +6,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-web.config
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -244,3 +243,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/myAPI_SAP_RFC_001/appSettings.config
